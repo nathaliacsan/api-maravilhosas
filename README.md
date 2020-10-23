@@ -1,18 +1,16 @@
 # Projeto 2 - {Reprograma}
 
-Esse projeto foi o desafio da semana 11 do bootcamp do reprograma. 
+Esse projeto foi o desafio da semana 11 do bootcamp do reprograma.<br> 
+Para o desafio os métodos utilizados foram **GET, POST, PUT e DELETE**.
 
-### Agenda:
+- A camada do front-end foi construída pela Tech Lead do nosso Bootcamp e a professora da semana.
 
-- Apresentação professora & monitoras;
-- Panorama do projeto;
-- Leitura das tarefas;
-- Recreio (?)
-- Formação das duplas e trabalho em conjunto;
-- **Pausa para o almoço**
-- 30 minutos para tirar dúvidas gerais do andamento do projeto
-- Nova formação de duplas
-- Desafio para o lar e preparação para Quarta-Feira
+### Ferramentas utilizadas
+
+- `Node.Js`
+- `Express`
+- `Nodemon`
+- `Cors`
 
 ### Arquitetura desejada
 
@@ -43,7 +41,4 @@ Esse projeto foi o desafio da semana 11 do bootcamp do reprograma.
 ```
 
 
-### Desafios do dia:
-
-![assets/tarefas.png](assets/tarefas.png)
 

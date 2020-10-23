@@ -1,10 +1,9 @@
-let data = require("../data/data.json")
+let data = require('../data/data.json')
 
 // selectAllData
 const selectAllData = () => data
 
 //insertData
-
 const insertData = (newData) => {
     const { name, photo, subtitle, about, phrase, history } = newData
 
@@ -12,7 +11,6 @@ const insertData = (newData) => {
 
     if (!existName) {
 
-        if (name && photo && subtitle && about && phrase && history) {
             const id = (data.length > 0) ? data[data.length - 1].id + 1 : 1
 
             let addingData = {
@@ -27,10 +25,7 @@ const insertData = (newData) => {
 
             data.push(addingData)
             return addingData
-        } else {
-            return {message: "Algum campo não foi preenchido"}
-        }
-
+      
     } else {
         return {message: "Essa maravilhosa já existe"}
     }
